@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient873"
+       id="linearGradient875"
+       x1="148.49199"
+       y1="-382.87991"
+       x2="203.05872"
+       y2="-437.22311"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient873">
+      <stop
+         style="stop-color:#bcf5db;stop-opacity:1;"
+         offset="0"
+         id="stop869" />
+      <stop
+         style="stop-color:#bcf5db;stop-opacity:0;"
+         offset="1"
+         id="stop871" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="728"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g881"
+       transform="matrix(0.5654599,0,0,0.5654599,51.650396,288.36858)">
+      <rect
+         style="opacity:1;fill:#4b5b5c;fill-opacity:1;stroke:#c89a9a;stroke-width:1.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="rect843"
+         width="62"
+         height="39"
+         x="62.147247"
+         y="-399.79434"
+         ry="12.030849"
+         rx="14" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Leon Sans';-inkscape-font-specification:'Leon Sans Bold';white-space:pre;inline-size:426.841"
+         x="49.66581"
+         y="-314.03598"
+         id="text847"
+         transform="matrix(0.39670913,0,0,0.39670913,47.65554,-252.87349)"><tspan
+           x="49.66581"
+           y="-314.03598"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:'Leon Sans';-inkscape-font-specification:'Leon Sans Bold';fill:#c89a9a;fill-opacity:1">IDEAS STUDIO</tspan></tspan></text>
+      <path
+         sodipodi:type="star"
+         style="opacity:0.748387;fill:url(#linearGradient875);fill-opacity:1;stroke:#c89a9a;stroke-width:1.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="path849"
+         sodipodi:sides="3"
+         sodipodi:cx="168.12338"
+         sodipodi:cy="-400.10284"
+         sodipodi:r1="21.416828"
+         sodipodi:r2="10.708414"
+         sodipodi:arg1="2.4173427"
+         sodipodi:arg2="3.4645402"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 152.08225,-385.91261 5.8863,-17.58869 5.8863,-17.58869 12.2891,13.89203 12.2891,13.89203 -18.1754,3.69666 z"
+         inkscape:transform-center-x="0.10623848"
+         inkscape:transform-center-y="-4.2967768"
+         transform="matrix(0.80126669,0.17309282,-0.17309282,0.80126669,-111.11313,-85.169983)" />
+    </g>
+  </g>
+</svg>
