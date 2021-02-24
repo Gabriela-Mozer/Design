@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1440mm"
-   height="800mm"
-   viewBox="0 0 1440 800"
+   width="1400"
+   height="1000"
+   viewBox="0 0 370.41668 264.58333"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -38,7 +38,7 @@
        x2="152.70235"
        y2="104.32143"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(7.2912157,0,0,3.35958,-55.974814,-127.19271)" />
+       gradientTransform="matrix(1.9434235,0,0,1.1111111,-22.268853,-33.88584)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -47,10 +47,10 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.0875"
-     inkscape:cx="1155.0039"
-     inkscape:cy="1395.9333"
-     inkscape:document-units="mm"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="697.14461"
+     inkscape:cy="593.95748"
+     inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
@@ -59,7 +59,7 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     units="mm" />
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -78,10 +78,10 @@
      id="layer1">
     <path
        id="rect833"
-       style="opacity:1;fill:url(#linearGradient841);fill-opacity:1;stroke-width:4.32135;stop-color:#000000"
-       d="M 32.214186,-10.367323 C 105.41802,48.958048 382.16227,204.44218 644.02525,187.72792 1151.5949,90.600279 1315.533,181.32375 1426.7024,218.20409 l -5.5118,571.42859 H 26.702376 Z"
+       style="opacity:1;fill:url(#linearGradient841);fill-opacity:1;stroke-width:1.28304;stop-color:#000000"
+       d="M 1.2373195,4.7517246 C 20.749299,24.372356 94.513578,75.795493 164.31136,70.267601 299.60057,38.144657 343.29713,68.149556 372.92857,80.346959 L 371.45943,269.33506 H -0.23181558 Z"
        sodipodi:nodetypes="cccccc"
-       inkscape:transform-center-x="91.166136"
-       inkscape:transform-center-y="-52.094932" />
+       inkscape:transform-center-x="24.299712"
+       inkscape:transform-center-y="-17.229314" />
   </g>
 </svg>
