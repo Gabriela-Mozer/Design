@@ -4,8 +4,10 @@ body{
     // left:10px;
     // right:10px;
     // display: block;
-    // min-height:1000vh;
-    background: #4B5B5C;
+    min-height:1000vh;
+    background:linear-gradient(215.22deg, #7FC5A3 30.4%, rgba(127, 167, 197, 0.935106) 91.46%, rgba(127, 197, 163, 0.0416667) 140.99%, rgba(127, 197, 163, 0) 141%);
+    background-repeat: no-repeat;
+    // background: #4B5B5C;
     // max-width: 1370px;
     // overflow-x: hidden;
    
@@ -23,8 +25,16 @@ body{
 // }
 .partOne{
     position: relative;
-    width:100%;
-    margin:0;
+    // width:100%;
+    // margin:0;
+}
+.darkone{
+    position: relative;
+    top:170px;
+    margin-top:50px;
+    height:950px;
+    background-image: url(darkBackground.svg);
+    background-repeat: no-repeat;
 }
 .wave{
     position: relative;
@@ -53,16 +63,18 @@ body{
 .partTwo{
     position:absolute;
     width:100%;
-    height: 1000px;
+    height: 100%;
+    // background-image: url(background_2.svg);
+    // background-repeat: no-repeat;
 }
-.background{
-    position:absolute;
-    width:100%;
-    height: 1000px;
-    top: 120px;
-    // margin-bottom:100px;
-    margin-right:35px;
-}
+// .background{
+//     position:absolute;
+//     width:100%;
+//     height: 1000px;
+//     top: 120px;
+//     // margin-bottom:100px;
+//     margin-right:35px;
+// }
 .logo{
     position: absolute;
     top:-190px;
@@ -106,8 +118,9 @@ ul,li{
 .hamburger{
     // position:absolute;
     position:relative;
-    top:-250px;
     right:15px;
+    // top:-250px;
+    // right:15px;
     float: right;
     width:40px;
     height:25px;
