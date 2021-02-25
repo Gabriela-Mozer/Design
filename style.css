@@ -98,3 +98,36 @@ ul, li {
 .hamburger::after {
   transform: translateY(20px);
 }
+
+@media (max-width: 768px) {
+  body {
+    margin: 20px;
+    background-size: contain;
+  }
+  .logo {
+    position: relative;
+    top: 5px;
+    right: 150px;
+  }
+  #button {
+    position: relative;
+    top: 55px;
+    left: 160px;
+    width: 225px;
+    height: 90px;
+  }
+  .darkone {
+    position: relative;
+    top: 170px;
+    margin-top: 50px;
+    height: 750px;
+    width: 750px;
+  }
+}
+
+@media (min-width: 769px) {
+  .body {
+    margin: 10px;
+    width: 100%;
+  }
+}
