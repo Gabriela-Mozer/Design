@@ -18,8 +18,10 @@ body{
     
 }
 .darkone{
-    position: relative;
-    top:170px;
+    display:flex;
+    // position: relative;
+    // top:170px;
+    justify-content: center;
     margin-top:50px;
     height:950px;
     background-image: url(darkBackground.svg);
@@ -32,7 +34,7 @@ body{
 }
 
 .partTwo{
-    position:relative;
+    // position:relative;
     width:100%;
     height: 100%;
     // background-image: url(background_2.svg);
@@ -47,7 +49,7 @@ body{
 }
 .desc,ul{
     position: relative;
-    top: 450px;
+    top: 350px;
     right:50px;
     margin:65px;
     font-family: 'Rhodium Libre', serif;
@@ -62,9 +64,10 @@ ul,li{
     margin:60px;
 }
 #button{
-    position: relative;
-    top: 100px;
-    left: 560px;
+    // position: relative;
+    // top: 100px;
+    // left: 560px;
+    align-self: center;
     width:225px;
     height:90px;
     color:#fff;
@@ -117,18 +120,16 @@ ul,li{
 
 @media (max-width:768px){
     body{
-        margin: 20px;
-        background-size: contain;
+        margin: 25px;
+        // background-size: contain;
         
     }
-    .partOne{
-        display: flex;
-        flex-direction: column;
+    // .partOne{
         
-    }
+        
+    // }
     .logo{
         align-self: center;
-        
         
     }
     .hamburger{
@@ -136,19 +137,28 @@ ul,li{
         
     }
     #button{
-    position: relative;
-    top: 55px;
-    left: 160px;
-    width:225px;
-    height:90px;
+    // position: relative;
+    // top: 55px;
+    // left: 160px;
+    // width:225px;
+    // height:90px;
+    align-self:center;
     
     }
     .darkone{
-        position: relative;
-        top:170px;
-        margin-top:50px;
-        height:750px;
-        width:750px;
+        // position: relative;
+        // top:170px;
+        // margin-top:50px;
+        display: flex;
+        align-content: center;
+        background-size: 1100px 900px;
+        // height:750px;
+        // width:750px;
+        
+    }
+    .desc,ul,li{
+        font-size: 17px;
+        margin:45px;
     }
     
 }
