@@ -9,8 +9,12 @@ body{
 
 .partOne{
     position: relative;
+    display: flex;
     // width:100%;
     // margin:0;
+    flex-wrap: wrap;
+    flex-flow: column;
+    
 }
 .darkone{
     position: relative;
@@ -35,9 +39,10 @@ body{
 }
 
 .logo{
-    position: absolute;
-    top:-190px;
-    right:850px;
+    align-self: flex-start;
+    // position: absolute;
+    // top:-190px;
+    // right:850px;
 }
 .desc,ul{
     position: relative;
@@ -75,12 +80,12 @@ ul,li{
 
 }
 .hamburger{
-    // position:absolute;
-    position:relative;
-    right:15px;
+    align-self: flex-end;
+    // position:relative;
+    // right:15px;
     // top:-250px;
     // right:15px;
-    float: right;
+    // float: right;
     width:40px;
     height:25px;
     border:0;
@@ -91,14 +96,20 @@ ul,li{
   .hamburger::before, .hamburger::after{
       content:'';
       position: absolute;
+      align-self: flex-end;
       top: 0;
       left:0;
-      width:100%;
+      width:40px;
+      height:25px;
+      border:0;
       border-top:5px solid rgb(73, 64, 64);
       transform: translateY(7px);
+      
   }
   .hamburger::after{
     transform: translateY(20px);
+    align-self: flex-end;
+    
   }
 
 
@@ -109,11 +120,11 @@ ul,li{
         background-size: contain;
         
     }
-    .logo{
-        position:relative;
-        top: 5px;
-        right:150px;
-    }
+    // .logo{
+    //     position:relative;
+    //     top: 5px;
+    //     right:150px;
+    // }
     
     #button{
     position: relative;
@@ -138,7 +149,7 @@ ul,li{
         width:100%;
     }
 //    .logo{
-//        position:relative;
+//        display: flex;
 //        top: 10px;
 //        left:140px;
 //    }

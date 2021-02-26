@@ -8,6 +8,9 @@ body {
 
 .partOne {
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
 }
 
 .darkone {
@@ -31,9 +34,7 @@ body {
 }
 
 .logo {
-  position: absolute;
-  top: -190px;
-  right: 850px;
+  align-self: flex-start;
 }
 
 .desc, ul {
@@ -74,9 +75,7 @@ ul, li {
 }
 
 .hamburger {
-  position: relative;
-  right: 15px;
-  float: right;
+  align-self: flex-end;
   width: 40px;
   height: 25px;
   border: 0;
@@ -88,26 +87,25 @@ ul, li {
 .hamburger::before, .hamburger::after {
   content: '';
   position: absolute;
+  align-self: flex-end;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 40px;
+  height: 25px;
+  border: 0;
   border-top: 5px solid #494040;
   transform: translateY(7px);
 }
 
 .hamburger::after {
   transform: translateY(20px);
+  align-self: flex-end;
 }
 
 @media (max-width: 768px) {
   body {
     margin: 20px;
     background-size: contain;
-  }
-  .logo {
-    position: relative;
-    top: 5px;
-    right: 150px;
   }
   #button {
     position: relative;
