@@ -13,8 +13,9 @@ body{
     // width:100%;
     // margin:0;
     flex-wrap: wrap;
-    flex-flow: column;
+    flex-direction: row;
     margin: 15px;
+    justify-content: space-between;
     
 }
 .darkone{
@@ -124,12 +125,14 @@ ul,li{
         // background-size: contain;
         
     }
-    // .partOne{
+    .partOne{
+       justify-content: space-between; 
+       
         
-        
-    // }
+    }
     .logo{
-        align-self: center;
+        align-self: flex-end;
+        
         
     }
     .hamburger{
