@@ -64,13 +64,13 @@ body{
 ul,li{
     margin:60px;
 }
-#button{
+.button{
     // position: relative;
     // top: 100px;
     // left: 560px;
     align-self: center;
     width:225px;
-    height:90px;
+    height:140px;
     color:#fff;
     background: #82BCB0;
     border:2px solid #B4A3A3;
@@ -79,11 +79,13 @@ ul,li{
     font-family: 'Rhodium Libre', serif;
     font-style: normal;
     font-weight: normal;
-    padding-top: 55px;
-    padding-left:24px;
+   outline: none;
+    // padding-top: 55px;
+    // padding-left:24px;
     cursor: pointer;
 
 }
+
 .hamburger{
     align-self: flex-end;
     position:relative;
@@ -97,6 +99,7 @@ ul,li{
     border-top: 5px solid rgb(73, 64, 64);
     background:transparent;
     cursor: pointer;
+    outline: none;
   }
   .hamburger::before, .hamburger::after{
       content:'';
