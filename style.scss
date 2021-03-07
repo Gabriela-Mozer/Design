@@ -1,190 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
-body{
-    margin: auto;
-    min-height:1000vh;
-    background:linear-gradient(215.22deg, #7FC5A3 30.4%, rgba(127, 167, 197, 0.935106) 91.46%, rgba(127, 197, 163, 0.0416667) 140.99%, rgba(127, 197, 163, 0) 141%);
-    background-repeat: no-repeat;
-   
+@import url("https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap");
+body {
+  margin: auto;
+  min-height: 1000vh;
+  background: linear-gradient(
+    215.22deg,
+    #7fc5a3 30.4%,
+    rgba(127, 167, 197, 0.935106) 91.46%,
+    rgba(127, 197, 163, 0.0416667) 140.99%,
+    rgba(127, 197, 163, 0) 141%
+  );
+  background-repeat: no-repeat;
 }
 
-.partOne{
-    position: relative;
-    display: flex;
-    // width:100%;
-    // margin:0;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 15px;
+.partOne {
+  position: relative;
+  display: flex;
+  // width:100%;
+  // margin:0;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 15px;
+  justify-content: space-between;
+}
+.darkone {
+  display: flex;
+  // position: relative;
+  // top:170px;
+  justify-content: center;
+  margin-top: 50px;
+  height: 950px;
+  background-image: url(darkBackground.svg);
+  background-repeat: no-repeat;
+}
+.wave {
+  position: relative;
+  width: 100%;
+  // z-index:110;
+}
+
+.partTwo {
+  // position:relative;
+  width: 100%;
+  height: 100%;
+  // background-image: url(background_2.svg);
+  // background-repeat: no-repeat;
+}
+
+.logo {
+  align-self: flex-start;
+  // position: absolute;
+  // top:-190px;
+  // right:850px;
+}
+.desc,
+ul {
+  position: relative;
+  top: 350px;
+  right: 50px;
+  margin: 65px;
+  font-family: "Rhodium Libre", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 55px;
+  text-align: center;
+  color: rgb(73, 64, 64);
+}
+ul,
+li {
+  margin: 60px;
+}
+.sidebar-bar {
+  // position:fixed;
+  // top:30px;
+  line-height: 1;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.button {
+  // position: relative;
+  // top: 100px;
+  // left: 560px;
+  align-self: center;
+  width: 225px;
+  height: 140px;
+  color: #fff;
+  background: #82bcb0;
+  border: 2px solid #b4a3a3;
+  border-radius: 24px;
+  font-size: 22px;
+  font-family: "Rhodium Libre", serif;
+  font-style: normal;
+  font-weight: normal;
+  outline: none;
+  // padding-top: 55px;
+  // padding-left:24px;
+  cursor: pointer;
+}
+
+.hamburger {
+  align-self: flex-end;
+  position: relative;
+  // right:15px;
+  // top:-250px;
+  // right:15px;
+  // float: right;
+  width: 40px;
+  height: 25px;
+  border: 0;
+  border-top: 5px solid rgb(73, 64, 64);
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  align-self: flex-end;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 25px;
+  border: 0;
+  border-top: 5px solid rgb(73, 64, 64);
+  transform: translateY(7px);
+}
+.hamburger::after {
+  transform: translateY(20px);
+  align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 25px;
+    // background-size: contain;
+  }
+  .partOne {
     justify-content: space-between;
-    
-}
-.darkone{
-    display:flex;
-    // position: relative;
-    // top:170px;
-    justify-content: center;
-    margin-top:50px;
-    height:950px;
-    background-image: url(darkBackground.svg);
-    background-repeat: no-repeat;
-}
-.wave{
-    position: relative;
-    width:100%;
-    // z-index:110;
-}
-
-.partTwo{
-    // position:relative;
-    width:100%;
-    height: 100%;
-    // background-image: url(background_2.svg);
-    // background-repeat: no-repeat;
-}
-
-.logo{
-    align-self: flex-start;
-    // position: absolute;
-    // top:-190px;
-    // right:850px;
-}
-.desc,ul{
-    position: relative;
-    top: 350px;
-    right:50px;
-    margin:65px;
-    font-family: 'Rhodium Libre', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 55px;
-    text-align: center;
-    color:rgb(73, 64, 64);
-}
-ul,li{
-    margin:60px;
-}
-// .sidebar{
-//     position: fixed;
-//     background: #404040;
-//     height: 100%;
-//     width: 270px;
-//     overflow: hidden;
-//     left: -270px;
-//     transition: all 0.3s ease;
-//   }
-.button{
-    // position: relative;
-    // top: 100px;
-    // left: 560px;
+  }
+  .logo {
+    align-self: flex-end;
+  }
+  .hamburger {
     align-self: center;
-    width:225px;
-    height:140px;
-    color:#fff;
-    background: #82BCB0;
-    border:2px solid #B4A3A3;
-    border-radius: 24px;
-    font-size: 22px;
-    font-family: 'Rhodium Libre', serif;
-    font-style: normal;
-    font-weight: normal;
-   outline: none;
-    // padding-top: 55px;
-    // padding-left:24px;
-    cursor: pointer;
-
-}
-
-.hamburger{
-    align-self: flex-end;
-    position:relative;
-    // right:15px;
-    // top:-250px;
-    // right:15px;
-    // float: right;
-    width:40px;
-    height:25px;
-    border:0;
-    border-top: 5px solid rgb(73, 64, 64);
-    background:transparent;
-    cursor: pointer;
-    outline: none;
   }
-  .hamburger::before, .hamburger::after{
-      content:'';
-      position: absolute;
-      align-self: flex-end;
-      top: 0;
-      left:0;
-      width:40px;
-      height:25px;
-      border:0;
-      border-top:5px solid rgb(73, 64, 64);
-      transform: translateY(7px);
-      
-  }
-  .hamburger::after{
-    transform: translateY(20px);
-    align-self: flex-end;
-    
-  }
-
-
-
-@media (max-width:768px){
-    body{
-        margin: 25px;
-        // background-size: contain;
-        
-    }
-    .partOne{
-       justify-content: space-between; 
-       
-        
-    }
-    .logo{
-        align-self: flex-end;
-        
-        
-    }
-    .hamburger{
-        align-self: center;
-        
-    }
-    #button{
+  #button {
     // position: relative;
     // top: 55px;
     // left: 160px;
     // width:225px;
     // height:90px;
-    align-self:center;
-    
-    }
-    .darkone{
-        // position: relative;
-        // top:170px;
-        // margin-top:50px;
-        display: flex;
-        align-content: center;
-        background-size: 1100px 900px;
-        // height:750px;
-        // width:750px;
-        
-    }
-    .desc,ul,li{
-        font-size: 17px;
-        margin:45px;
-    }
-    
+    align-self: center;
+  }
+  .darkone {
+    // position: relative;
+    // top:170px;
+    // margin-top:50px;
+    display: flex;
+    align-content: center;
+    background-size: 1100px 900px;
+    // height:750px;
+    // width:750px;
+  }
+  .desc,
+  ul,
+  li {
+    font-size: 17px;
+    margin: 45px;
+  }
 }
-@media (min-width:769px){
-    .body{
-        margin: 10px;
-        width:100%;
-    }
-//    .logo{
-//        display: flex;
-//        top: 10px;
-//        left:140px;
-//    }
+@media (min-width: 769px) {
+  .body {
+    margin: 10px;
+    width: 100%;
+  }
+  //    .logo{
+  //        display: flex;
+  //        top: 10px;
+  //        left:140px;
+  //    }
 }
