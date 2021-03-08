@@ -39,10 +39,10 @@ body {
 }
 
 .desc,
-ul {
+.desc-text {
   position: relative;
-  top: 350px;
-  right: 50px;
+  top: 50px;
+  right: 40px;
   margin: 65px;
   font-family: "Rhodium Libre", serif;
   font-style: normal;
@@ -53,37 +53,48 @@ ul {
   color: #494040;
 }
 
-ul,
-li {
+.desc, .desc-text,
+.desc1 {
   margin: 60px;
 }
 
-.sidebar-bar {
+.side-list {
+  position: fixed;
+  top: 0;
+  bottom: 60px;
   height: 100vh;
   width: 250px;
-  position: fixed;
   z-index: 1;
-  top: 0;
   right: 0;
-  background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
   display: flex;
-  align-items: flex-end;
-  background: #91c4bd;
+  background: #ACD2D4;
+  font-family: "Rhodium Libre", serif;
 }
 
-.sidebar-bar, ul, li {
-  top: 0;
-  padding: 10px;
+.side-list-grow {
+  margin-top: 35px;
+  padding: 20px 0;
   font-size: 17px;
-  line-height: 0.3;
-  list-style: none;
-  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+  align-items: stretch;
+  width: 100%;
 }
 
-.sidebar-bar, li, a {
+.side1 {
+  list-style: none;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 100%;
+  background: #93BFC1;
+  text-align: center;
+  margin-top: 0;
+  border-left: 4px solid #6B8687;
+}
+
+.side1, a {
   text-decoration: none;
   color: #fff;
 }
@@ -157,10 +168,16 @@ li {
     background-size: 1100px 900px;
   }
   .desc,
-  ul,
-  li {
+  .desc-text,
+  .desc1 {
     font-size: 17px;
     margin: 45px;
+  }
+  .side-list {
+    width: 125px;
+  }
+  .side-list-grow {
+    width: 125px;
   }
 }
 
