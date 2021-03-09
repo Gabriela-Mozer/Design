@@ -16,14 +16,16 @@
         <img src="logo.svg" alt="logo" class="logo" > 
         
         <nav id="sidebar">
-            <button class="hamburger" aria-label="open-menu" id="btn">
+            <!-- <button class="hamburger" aria-label="open-menu" id="btn">
                 <span></span>
-            </button>
+            </button> -->
+            <label for="hamburger" class="hamburger" aria-label="open-menu" id="btn"></label>
+                <input type = radio id="btn" name="group">
+                  <label for ="buttonTimes"></label> <button class= "times" id="buttonTimes"><i class="fa fa-times"  aria-hidden="true"></i></button> 
+                    <input type = radio id="buttonTimes" name="group">
             <div class="side-list">
-                <input type="checkbox" id="check">
-                <label for="check">
-                    <i class="fa fa-times" aria-hidden="true"></i>
-                </label>
+                
+                    
                 <ul class="side-list-grow">
                     <li class="side1"><a href="#">About us</a></li>
                     <li class="side1"><a href="#">Offer</a></li>
@@ -55,6 +57,6 @@
     </p>
         
     </div>
-    
+    <script type="module" src="main.js"></script>
 </body>
 </html>
