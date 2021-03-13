@@ -62,8 +62,8 @@ body {
   position: fixed;
   top: 0px;
   bottom: 60px;
-  max-height: 100vh;
-  max-width: 0;
+  min-height: 150vh;
+  width: 0;
   z-index: 0;
   right: 0;
   overflow-x: hidden;
@@ -81,26 +81,6 @@ body {
   text-align: center;
   align-items: stretch;
   width: 100%;
-}
-
-.btn {
-  position: absolute;
-  font-size: 45px;
-  background: #94bfc2;
-  cursor: pointer;
-}
-
-.fa-times {
-  font-size: 35px;
-  z-index: 10;
-  z-index: 4;
-}
-
-.times {
-  background: #93BFC1;
-  border: none;
-  z-index: 4;
-  outline: none;
 }
 
 .side1 {
@@ -153,6 +133,7 @@ body {
   cursor: pointer;
   outline: none;
   z-index: 0;
+  transition: all .4s ease-in-out;
 }
 
 #menu-close {
@@ -160,7 +141,7 @@ body {
 }
 
 #menu-close:checked + .side-list {
-  min-width: 250px;
+  width: 250px;
 }
 
 .hamburger.close {
@@ -182,16 +163,19 @@ body {
   height: 25px;
   border: 0;
   border-top: 5px solid #494040;
-  transform: translateY(7px);
+  transition: all .4s ease-in-out;
+  transform: rotate(45deg) translate(-35px, 35px);
 }
 
 .hamburger::after {
   display: block;
-  transform: translateY(20px);
   align-self: flex-end;
   z-index: 8;
+  transition: all .4s ease-in-out;
+  transform: rotate(45deg) translate(35px, -35px);
 }
 
+/*ANIMATION*/
 @media (max-width: 768px) {
   body {
     margin: 25px;
