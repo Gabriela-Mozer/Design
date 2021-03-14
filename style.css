@@ -163,16 +163,19 @@ body {
   height: 25px;
   border: 0;
   border-top: 5px solid #494040;
-  transition: all .4s ease-in-out;
-  transform: rotate(45deg) translate(-35px, 35px);
+  transform: rotate(45deg) translate(-14px, 5px);
+  transition: all .6s ease-in-out;
+  transform-origin: 0 0;
+  margin-left: 16px;
 }
 
 .hamburger::after {
   display: block;
+  transform: rotate(135deg) translate(-14px, -10px);
   align-self: flex-end;
   z-index: 8;
   transition: all .4s ease-in-out;
-  transform: rotate(45deg) translate(35px, -35px);
+  transform-origin: 0 0;
 }
 
 /*ANIMATION*/
