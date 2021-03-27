@@ -8,20 +8,37 @@ body {
 
 .partOne {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 15px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .darkone {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 50px;
   height: 950px;
   background-image: url(darkBackground.svg);
   background-repeat: no-repeat;
+}
+
+.open {
+  font-size: 45px;
+  cursor: pointer;
 }
 
 .wave {
@@ -35,7 +52,8 @@ body {
 }
 
 .logo {
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .desc,
@@ -51,6 +69,7 @@ body {
   line-height: 55px;
   text-align: center;
   color: #494040;
+  z-index: 0;
 }
 
 .desc, .desc-text,
@@ -61,12 +80,14 @@ body {
 .side-list {
   position: fixed;
   top: 0px;
+  right: 0;
   bottom: 60px;
   min-height: 150vh;
   width: 0;
-  z-index: 0;
+  z-index: 9;
   right: 0;
   overflow-x: hidden;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   background: #ACD2D4;
   font-family: "Rhodium Libre", serif;
@@ -79,8 +100,18 @@ body {
   font-size: 17px;
   line-height: 50px;
   text-align: center;
-  align-items: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   width: 100%;
+}
+
+.side-list .closebtn {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 .side1 {
@@ -92,6 +123,7 @@ body {
   text-align: center;
   margin-top: 0;
   border-left: 4px solid #6B8687;
+  z-index: 9;
 }
 
 .side1, a {
@@ -104,7 +136,9 @@ body {
 }
 
 .button {
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   width: 225px;
   height: 140px;
   color: #fff;
@@ -121,7 +155,8 @@ body {
 }
 
 .hamburger {
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   position: relative;
   right: 15px;
   display: block;
@@ -133,6 +168,7 @@ body {
   cursor: pointer;
   outline: none;
   z-index: 0;
+  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
 
@@ -140,7 +176,7 @@ body {
   display: none;
 }
 
-#menu-close:checked + .side-list {
+#menu-close:checked ~ .side-list {
   width: 250px;
 }
 
@@ -148,6 +184,9 @@ body {
   position: fixed;
   top: 10px;
   z-index: 3;
+}
+
+#menu-close:checked ~ .hamburger {
   right: 205px;
 }
 
@@ -156,26 +195,39 @@ body {
   content: "";
   display: block;
   position: absolute;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   top: 0;
   left: 0;
   width: 40px;
   height: 25px;
   border: 0;
   border-top: 5px solid #494040;
-  transform: rotate(45deg) translate(-14px, 5px);
+  -webkit-transform: rotate(45deg) translate(-14px, 5px);
+          transform: rotate(45deg) translate(-14px, 5px);
+  -webkit-transition: all .6s ease-in-out;
   transition: all .6s ease-in-out;
-  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
   margin-left: 16px;
 }
 
 .hamburger::after {
   display: block;
-  transform: rotate(135deg) translate(-14px, -10px);
-  align-self: flex-end;
+  -webkit-transform: rotate(135deg) translate(-14px, -10px);
+          transform: rotate(135deg) translate(-14px, -10px);
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   z-index: 8;
+  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+.top {
+  background-image: url(lightwave.svg);
+  background-repeat: no-repeat;
 }
 
 /*ANIMATION*/
@@ -184,20 +236,30 @@ body {
     margin: 25px;
   }
   .partOne {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .logo {
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
   .hamburger {
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   #button {
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .darkone {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     background-size: 1100px 900px;
   }
   .desc,
@@ -221,3 +283,4 @@ body {
     width: 100%;
   }
 }
+/*# sourceMappingURL=style.css.map */

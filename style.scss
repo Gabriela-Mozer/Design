@@ -32,6 +32,10 @@ body {
   background-image: url(darkBackground.svg);
   background-repeat: no-repeat;
 }
+.open{
+  font-size: 45px;
+  cursor:pointer; 
+}
 .wave {
   position: relative;
   width: 100%;
@@ -70,6 +74,7 @@ body {
 .side-list {
   position:fixed;
   top: 0px;
+  right:0;
   bottom:60px;
   // line-height: 0.1;
   min-height: 150vh;
@@ -94,32 +99,13 @@ body {
     width:100%;
 }
 
-// .btn{
-//   position: absolute;
-//   right:15px;
-//   font-size: 45px;
-//   background:hsl(183, 27%, 67%);
-//   cursor:pointer; 
-// }
-// .btn .click{
-//   right:250px;
-//   background: #7fc5a3;
-//   cursor:pointer;
-//   z-index: 3;
-// }
-
-// .fa-times{
-//   font-size:35px;
-//   z-index: 10;
-//   z-index:4;
-// }
-// .times{
-//   background:#93BFC1;
-//   border:none;
-//   z-index:4;
-//   outline:none;
-
-// }
+.side-list .closebtn{
+  position: absolute;
+  top: 0;
+  left: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 .side1{
     list-style:none;
     // height: 100%;
