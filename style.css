@@ -112,6 +112,11 @@ body {
   left: 25px;
   font-size: 36px;
   margin-left: 50px;
+  cursor: pointer;
+}
+
+.closebtn {
+  cursor: pointer;
 }
 
 .side1 {
@@ -230,7 +235,6 @@ body {
   background-repeat: no-repeat;
 }
 
-/*ANIMATION*/
 @media (max-width: 768px) {
   body {
     margin: 25px;

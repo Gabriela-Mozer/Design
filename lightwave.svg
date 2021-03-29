@@ -7,35 +7,35 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="light wave.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 380.99999 297"
+   width="1440"
    height="1122.5197"
-   width="1440">
+   viewBox="0 0 380.9952 296.99625"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="lightwave.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
-     inkscape:window-height="728"
-     inkscape:window-width="1366"
-     units="px"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="642.20424"
-     inkscape:cx="402.12482"
-     inkscape:zoom="0.35"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="402.12482"
+     inkscape:cy="642.20424"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="728"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -49,13 +49,13 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Warstwa 1"
      inkscape:groupmode="layer"
-     inkscape:label="Warstwa 1">
+     id="layer1">
     <path
-       sodipodi:nodetypes="ccccc"
-       d="M 0.62905627,0.62905633 H 381.62906 V 235.22809 c -122.85057,193.37873 -301.958127,-165.299135 -381.00000373,0 z"
+       id="rect833"
        style="fill:#acd2d4;fill-opacity:1;stroke:none;stroke-width:10.583;stroke-linecap:round;stroke-linejoin:round"
-       id="rect833" />
+       d="M 0.62905627,0.62905633 H 381.62906 V 235.22809 c -122.85057,193.37873 -301.958127,-165.299135 -381.00000373,0 z"
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>

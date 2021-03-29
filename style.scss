@@ -105,6 +105,10 @@ body {
   left: 25px;
   font-size: 36px;
   margin-left: 50px;
+  cursor:pointer;
+}
+.closebtn{
+  cursor: pointer;
 }
 .side1{
     list-style:none;
@@ -213,16 +217,10 @@ width:250px;
 .top{
   background-image:url(lightwave.svg);
   background-repeat: no-repeat;
+  
+  
 }
-/*ANIMATION*/
-// .hamburger.open .hamburger .close {
-//   transform: translateX(50px);
-//   background: transparent;
-//   box-shadow: none;
-// }
-// .hamburger.open .hamburger .close::before{
-//   transform: rotate(45deg) translate(35px, -35px);
-// }
+
 @media (max-width: 768px) {
   body {
     margin: 25px;
@@ -245,14 +243,10 @@ width:250px;
     align-self: center;
   }
   .darkone {
-    // position: relative;
-    // top:170px;
-    // margin-top:50px;
     display: flex;
     align-content: center;
     background-size: 1100px 900px;
-    // height:750px;
-    // width:750px;
+ 
   }
   .desc,
   .desc-text,
