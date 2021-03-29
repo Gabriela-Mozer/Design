@@ -217,8 +217,16 @@ width:250px;
 .top{
   background-image:url(lightwave.svg);
   background-repeat: no-repeat;
+  justify-content: center;
   
+  height: 1200px;
   
+}
+.open2{
+  font-size: 45px;
+  position:fixed;
+  right: 5px;
+  cursor:pointer;
 }
 
 @media (max-width: 768px) {
