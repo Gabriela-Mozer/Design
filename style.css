@@ -86,6 +86,14 @@ body {
   height: 200px;
   background: #6B8687;
   border-radius: 14px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.nrone__text {
+  margin: 25px;
+  line-height: 1.9em;
+  text-align: center;
 }
 
 .nrtwo {
@@ -93,6 +101,14 @@ body {
   height: 200px;
   background: #6B8687;
   border-radius: 14px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.nrtwo__text {
+  margin: 22px;
+  line-height: 1.7em;
+  text-align: center;
 }
 
 .bottom_2 {
@@ -112,6 +128,14 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+.nrthree__text {
+  margin: 22px;
+  line-height: 1.7em;
+  text-align: center;
 }
 
 .desc,

@@ -78,12 +78,26 @@ padding-bottom:250px;
   height:200px;
   background:#6B8687;
   border-radius: 14px;
+  font-size:25px;
+  color:#fff;
+  &__text{
+    margin:25px;
+    line-height: 1.9em;
+    text-align: center;
+  }
 }
 .nrtwo{
   width:200px;
   height:200px;
   background:#6B8687;
   border-radius: 14px;
+  font-size:25px;
+  color:#fff;
+  &__text{
+    margin:22px;
+    line-height: 1.7em;
+    text-align: center;
+  }
 }
 .bottom_2{
   padding-top: 250px;
@@ -96,6 +110,14 @@ padding-bottom:250px;
   background:#6B8687;
   border-radius: 14px;
   align-self: center;
+  font-size:25px;
+  color:#fff;
+  &__text{
+    margin:22px;
+    line-height: 1.7em;
+    text-align: center;
+  }
+  
 }
 .desc,
 .desc-text {
